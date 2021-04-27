@@ -2,15 +2,45 @@ html {
     background-color: rgb(255, 255, 255);
 }
 
-#title {
+header {
     text-align: center;
     font-size: 48px;
+    margin: 50px;
+    padding: 10px;
+}
+
+body {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.draw-area {
+    float: right;
+    width: 355px;
+    height: 355px;
 }
 
 .btns {
 
     margin: auto;
     width: 50%;
-    
-    vertical-align: bottom;
+    float:left;
+    vertical-align: middle;
+}
+
+.square-div {
+
+    float: right;
+    height: 15px;
+    width: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(26, 25, 25);
+}
+
+.div-hover {
+
+        background-color: black;
+
 }
