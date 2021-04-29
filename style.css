@@ -1,44 +1,46 @@
-html {
-    background-color: rgb(255, 255, 255);
-}
 
-header {
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
+    color:rgb(26, 25, 25);
+    text-shadow: 2px 2px #E1341E;
     font-size: 48px;
-    margin: 50px;
     padding: 10px;
 }
 
 body {
     text-align: center;
-    
+    background-image: linear-gradient(to bottom right, rgb(0, 153, 255), rgb(9, 6, 56));
 }
 
+
 .draw-area {
+
     display: inline-block;
     border-style: solid;
     border-color: rgb(26, 25, 25);
     border-width: 3px;
     width: 400px;
     height: 400px;
+    margin-bottom: 20px;
+
 }
 
-.btns {
-
+#reset, #resize{
+    padding: 20px;
+    text-decoration: none;
     margin: auto;
-    width: 50%;
-    vertical-align: middle;
+    margin-right: 40px;
+    border:none;
+    background-color: burlywood;
+    margin-bottom: 50px;
 }
 
-/*.square-div {
-    float: right;
-    height: 15px;
-    width: 15px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(26, 25, 25);
-}*/
 
+.square-div {
+    background-color: white;
+}
 .div-hover {
 
         background-color: black;
