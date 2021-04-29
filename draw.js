@@ -1,7 +1,6 @@
 const canvas = document.querySelector('.draw-area');
 const reset= document.querySelector('#reset');
-const resize = document.querySelector("#resize")
-
+const resize = document.querySelector("#resize");
  
 drawCanvas();
 
@@ -53,11 +52,11 @@ function drawCanvas(size=16) {
         
         canvas.appendChild(div);
 
-        div.addEventListener("mouseenter", () => {
+        div.addEventListener("mouseenter", ()=>{
 
             div.classList.add("div-hover");
-    
         });
+
 
         reset.addEventListener("click", () => {
 
